@@ -10,7 +10,7 @@ const MacBooks = () => {
 
   return (
     <section className="flex flex-col items-center justify-center bg-white p-4 h-full overflow-hidden w-full gap-4 md:gap-0">
-      <h2 className=" 2xl:text-3xl xl:text-2xl md:text-xl text-lg font-semibold text-gray-800 my-2">
+      <h2 className="xl:text-2xl md:text-xl text-lg font-semibold text-gray-800 my-2">
         Choose your new MacBook Air.
       </h2>
       <div className="flex items-center justify-center mb-2">
