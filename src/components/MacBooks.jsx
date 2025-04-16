@@ -13,7 +13,7 @@ const MacBooks = () => {
       <h2 className=" 2xl:text-3xl xl:text-2xl md:text-xl text-lg font-semibold text-gray-800 my-2">
         Choose your new MacBook Air.
       </h2>
-      <div className="flex items-center justify-center mb-2 gap-2">
+      <div className="flex items-center justify-center mb-2">
         {macbookModels.map((model, index) => (
           <button
             key={index}
@@ -54,7 +54,7 @@ const MacBooks = () => {
           <span className="xl:text-lg text-base font-medium text-gray-800 mb-1 text-center md:text-left">
             {currentMacBookColor.label}
           </span>
-          <div className="flex space-x-2 mb-2 justify-center md:justify-start gap-2">
+          <div className="flex space-x-2 mb-2 justify-center md:justify-start">
             {currentMacBook.colors.map((color, index) => (
               <button
                 key={index}
