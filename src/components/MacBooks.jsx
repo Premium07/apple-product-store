@@ -68,7 +68,7 @@ const MacBooks = () => {
               ></button>
             ))}
           </div>
-          <div className="flex items-start flex-col justify-start md:gap-3 gap-2 mb-2">
+          <div className="flex items-start flex-col justify-start md:gap-3 mb-2">
             <img
               src={currentMacBook.icon}
               alt={`MacBook air with ${currentMacBook.chip} icon `}
