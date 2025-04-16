@@ -13,7 +13,7 @@ const MacBooks = () => {
       <h2 className="xl:text-2xl md:text-xl text-lg font-semibold text-gray-800 my-2">
         Choose your new MacBook Air.
       </h2>
-      <div className="flex items-center justify-center mb-2">
+      <div className="flex items-center justify-center my-2">
         {macbookModels.map((model, index) => (
           <button
             key={index}
