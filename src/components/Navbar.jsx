@@ -17,8 +17,7 @@ const Navbar = ({ activePage, handleNavClick, toggleNavbar, isNavbarOpen }) => {
         </a>
         <div className="flex flex-col flex-grow">
           {navItems.map((items, index) => (
-            <a
-              href="#"
+            <button
               key={index}
               className="xl:w-36 lg:w-32 w-30 flex items-center justify-between my-3.5 text-left cursor-pointer"
               onClick={() => handleNavClick(index)}
@@ -32,7 +31,7 @@ const Navbar = ({ activePage, handleNavClick, toggleNavbar, isNavbarOpen }) => {
                   activePage === index ? items.activeIcon : items.inactiveIcon
                 } text-lg text-yellow-400`}
               ></i>
-            </a>
+            </button>
           ))}
         </div>
         <div className="flex justify-between pr-6 pb-2">
